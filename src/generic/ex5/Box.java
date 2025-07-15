@@ -5,6 +5,7 @@ public class Box<T> {
     private T value;
 
     public void set(T value) {
+
         this.value = value;
     }
 
