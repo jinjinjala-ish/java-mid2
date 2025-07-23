@@ -27,7 +27,7 @@ public class MyArrayList1 {
     }
 
     public Object get(int index) {
-        return elementData[size];
+        return elementData[index];
     }
 
     public Object set(int index, Object element) {
