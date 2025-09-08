@@ -33,11 +33,11 @@ public class HashStart5 {
     }
 
 
-    private static boolean contains(LinkedList<Integer> buckets, int searchValue) {
-        int hashIndex = hashIndex(searchValue);
-        LinkedList<Integer> bucket = buckets[hashIndex];
-        return bucket.contains(searchValue);
-    }
+//    private static boolean contains(LinkedList<Integer> buckets, int searchValue) {
+//        int hashIndex = hashIndex(searchValue);
+//        LinkedList<Integer> bucket = buckets[hashIndex];
+//        return bucket.contains(searchValue);
+//    }
 
     static int hashIndex(int value) {
         return value % CAPACITY;
